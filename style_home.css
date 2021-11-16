@@ -34,12 +34,6 @@ h2 {
   text-align: center;
 }
 
-button {
-  margin: 0 auto;
-  display: block;
-  padding: 6px;
-}
-
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -73,15 +67,6 @@ button {
   font-size: 20px;
   text-align: center;
 }
-
-/* .footer-nav {
-  display: flex;
-  justify-content: space-around;
-  align-content: center; 
-  background-color: lightgray;
-  height: 30px;
-  border: 1px black solid;
-} */
 
 .navbar {
   display: flex;
