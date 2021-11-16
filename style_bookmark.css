@@ -1,67 +1,47 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: sans-serif;
-  background-color: white;
-  /* margin-bottom: 60px; */
+  background-color: #ffffff;
+  margin-bottom: 60px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
 }
 
 h1 {
-  color: black;
+  color: #183151;
   text-align: center;
-  background-color: lightgray;
+  background-color: #f7f7f7;
   padding: 4px;
-  border: 2px solid orange;
-  /* margin: 5px; */
+  border: 2px solid #ff5a36;
+  margin: 3px;
 }
 
 h2 {
   margin-top: 40px;
 }
 
-.bookmark {
-  position: absolute;
-  padding: 2px;
-  top: 60px;
-  left: 280px;
-  height: 25px;
-  width: 50px;
-  background-color: orange;
-  border: 2px solid black;
-  text-align: center;
-}
-
-button {
-  margin: 0 auto;
-  display: block;
-  padding: 6px;
-}
-
-.container {
-  display: flex;
+.card {
   flex-wrap: wrap;
   margin: auto;
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 10px;
   flex-direction: row;
   justify-content: center;
-  border: 1px black solid;
+  border: 1px solid #183151;
   width: 90%;
 }
 
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.flex-item {
-  background: orange;
+li {
+  background: #ff5a36;
   padding: 1px;
   width: 70px;
   height: 30px;
@@ -72,37 +52,49 @@ button {
   text-align: center;
 }
 
-/* .footer-nav {
+.card__answeroptions {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
-  align-content: center; 
-  background-color: lightgray;
-  height: 30px;
-  border: 1px black solid;
-} */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
 .navbar {
   display: flex;
-  justify-content: space-around;
-  background-color: #333;
+  justify-content: space-between;
+  background-color: #183151;
   position: fixed;
   bottom: 0;
-  right: 0;
-  left: 0;
   width: 100%;
 }
 
 /* Style the links inside the navigation bar */
 .navbar a {
-  margin-right: 0;
-  color: white;
+  color: #ffffff;
+  text-align: center;
   padding: 15px 0px;
   text-decoration: none;
   font-size: 17px;
+  width: 25%;
 }
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  background-color: orange;
+  background-color: #ff5a36;
   color: black;
 }
+
+:root {
+  --primary-color: #ff5a36;
+  --second-color: #183151;
+  --third-color: #ffffff;
+  --fourth-color: #f7f7f7;
+}
+/* Colors:
+blue: #183151
+red-orange: #ff5a36
+weißer Hintergrund: #ffffff
+leichtes Grau: #f7f7f7
+*/

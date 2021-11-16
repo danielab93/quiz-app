@@ -8,113 +8,150 @@
     <link rel="stylesheet" href="style_home.css" />
   </head>
   <body>
-    <header>
-      <h1>Quiz-App</h1>
+    <header class="header">
+      <h1 class="header_headline">Quiz-App</h1>
     </header>
-    <main>
-      <div class="container">
+    <main class="main">
+      <div class="card">
         <section>
-          <div class="bookmark">save</div>
-          <h2 id="Question 1">Question 1</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa,
-            quam. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repellendus, rem?
+          <h2 class="card__headline">Question 1</h2>
+          <p class="card__paragraph--question">
+            Where is the headquarter of neuefische GmbH? <br />
+            <br />
+            a: Berlin <br />
+            b: Munich <br />
+            c: Hamburg <br />
+            d: Cologne
           </p>
-
           <div>
             <details>
               <summary>Show Answer</summary>
-              <p>The Answer is....</p>
+              <p class="card__paragraph--answer">Hamburg</p>
             </details>
           </div>
-
-          <ul class="flex-container">
-            <li class="flex-item">a</li>
-            <li class="flex-item">b</li>
-            <li class="flex-item">c</li>
-            <li class="flex-item">d</li>
+          <ul class="card__answeroptions">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
           </ul>
         </section>
       </div>
 
-      <div class="container">
+      <div class="card">
         <section>
-          <h2 id="Question 2">Question 2</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
-            dolorem iusto doloribus nemo, dicta velit repudiandae quisquam
-            accusantium quas odit.
+          <h2 class="card__headline">Question 2</h2>
+          <p class="card__paragraph--question">
+            Who is the CEO of neuefische GmbH? <br />
+            <br />
+            a: Dagobert Duck<br />
+            b: Dalia Das <br />
+            c: Donald Trump <br />
+            d: Daenerys Targaryen
           </p>
+
           <div>
             <details>
               <summary>Show Answer</summary>
-              <p>The Answer is....</p>
+              <p class="card__paragraph--answer">Dalia Das</p>
             </details>
           </div>
-
-          <ul class="flex-container">
-            <li class="flex-item">a</li>
-            <li class="flex-item">b</li>
-            <li class="flex-item">c</li>
-            <li class="flex-item">d</li>
+          <ul class="card__answeroptions">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
           </ul>
         </section>
       </div>
-      <div class="container">
+      <div class="card">
         <section>
-          <h2 id="Question 3">Question 3</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
-            dolorem iusto doloribus nemo, dicta velit repudiandae quisquam
-            accusantium quas odit.
+          <h2 class="card__headline">Question 3</h2>
+          <p class="card__paragraph--question">
+            How many different courses does neuefische GmbH offer? <br />
+            <br />
+            a: 2 courses <br />
+            b: 4 courses <br />
+            c: 5 courses <br />
+            d: 7 courses
           </p>
           <div>
             <details>
               <summary>Show Answer</summary>
-              <p>The Answer is....</p>
+              <p class="card__paragraph--answer">5 courses</p>
             </details>
           </div>
 
-          <ul class="flex-container">
-            <li class="flex-item">a</li>
-            <li class="flex-item">b</li>
-            <li class="flex-item">c</li>
-            <li class="flex-item">d</li>
+          <ul class="card__answeroptions">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
           </ul>
         </section>
       </div>
 
-      <div class="container">
+      <div class="card">
         <section>
-          <h2 id="Question 4">Question 4</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
-            dolorem iusto doloribus nemo, dicta velit repudiandae quisquam
-            accusantium quas odit.
+          <h2 class="card__headline">Question 4</h2>
+          <p class="card__paragraph--question">
+            How long do you need to become a Web Developer with neuefische?
+            <br />
+            <br />
+            a: 12 weeks <br />
+            b: 6 weeks <br />
+            c: 15 weeks <br />
+            d: 9 weeks <br />
+          </p>
+
+          <div>
+            <details>
+              <summary>Show Answer</summary>
+              <p class="card__paragraph--answer">12 weeks</p>
+            </details>
+          </div>
+
+          <ul class="card__answeroptions">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
+          </ul>
+        </section>
+      </div>
+      <div class="card">
+        <section>
+          <h2 class="card__headline">Question 5</h2>
+          <p class="card__paragraph--question">
+            Which course does neuefische not offer? <br />
+            <br />
+            a: Web Development <br />
+            b: Data Scientist <br />
+            c: PHP Developer <br />
+            d: Astronaut
           </p>
           <div>
             <details>
               <summary>Show Answer</summary>
-              <p>The Answer is....</p>
+              <p class="card__paragraph--answer">Astronaut</p>
             </details>
           </div>
 
-          <ul class="flex-container">
-            <li class="flex-item">a</li>
-            <li class="flex-item">b</li>
-            <li class="flex-item">c</li>
-            <li class="flex-item">d</li>
+          <ul class="card__answeroptions">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+            <li>d</li>
           </ul>
         </section>
       </div>
     </main>
     <footer>
       <nav class="navbar">
-        <a href="#Home">Home</a>
-        <a href="#Bookmarks">Bookmarks</a>
-        <a href="#Create">Create</a>
-        <a href="#Profile">Profile</a>
+        <a href="index_home.html">Home</a>
+        <a href="index_bookmark.html">Bookmarks</a>
+        <a href="index_create.html">Create</a>
+        <a href="index_profile.html">Profile</a>
       </nav>
     </footer>
   </body>
