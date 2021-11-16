@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: sans-serif;
   background-color: white;
+  /* margin-bottom: 60px; */
 }
 
 h1 {
@@ -13,7 +13,7 @@ h1 {
   background-color: lightgray;
   padding: 4px;
   border: 2px solid orange;
-  margin: 3px;
+  /* margin: 5px; */
 }
 
 h2 {
@@ -24,19 +24,7 @@ h2 {
   position: absolute;
   padding: 2px;
   top: 60px;
-  left: 290px;
-  height: 25px;
-  width: 50px;
-  background-color: orange;
-  border: 2px solid black;
-  text-align: center;
-}
-
-.bookmark2 {
-  position: absolute; /*warum funktioniert das nicht?*/
-  padding: 2px;
-  top: 100px;
-  left: 400px;
+  left: 280px;
   height: 25px;
   width: 50px;
   background-color: orange;
@@ -55,7 +43,7 @@ button {
   flex-wrap: wrap;
   margin: auto;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 10px;
   flex-direction: row;
   justify-content: center;
@@ -84,14 +72,37 @@ button {
   text-align: center;
 }
 
-.footer-nav {
+/* .footer-nav {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  align-content: center;
+  align-content: center; 
   background-color: lightgray;
   height: 30px;
   border: 1px black solid;
-  /* position: fixed;
-    bottom: 0; */
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  margin-right: 0;
+  color: white;
+  padding: 15px 0px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: orange;
+  color: black;
 }
