@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
-    <link rel="stylesheet" href="style_create.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
       <h1>Create</h1>
     </header>
     <main>
-      <div class="card">
+      <div class="card__create">
         <section>
-          <h2 class="card__create">Create Question</h2>
+          <h2 class="card__create--question">Create Question</h2>
           <p>Type your question!</p>
           <textarea name="text" id="textfield" cols="30" rows="10"></textarea>
-          <h2 id="Create">Create Answers</h2>
+          <h2 class="card__create--answer">Create Answers</h2>
           <p>Type your Answers!</p>
           <textarea name="text" id="textfield" cols="30" rows="10"></textarea>
-
+          <h2 class="card__create--tags">Create Tags</h2>
+          <p>Type your tags!</p>
+          <textarea name="text" id="textfield" cols="30" rows="2"></textarea>
           <div>
             <button class="submit-button">Submit</button>
           </div>

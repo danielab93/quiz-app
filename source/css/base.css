@@ -1,0 +1,61 @@
+:root {
+  --primary: #183151;
+  --secondary: #e76f51;
+  --third: #ffffff;
+  --fourth: #f7f7f7;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--third);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+main {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+h1 {
+  color: #183151;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 4px;
+  border: 2px solid #ff5a36;
+  margin: 3px;
+  background: linear-gradient(180deg, #ff5a36, #f7f7f7);
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: var(--secondary);
+}
