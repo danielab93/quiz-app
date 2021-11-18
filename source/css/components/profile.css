@@ -2,7 +2,7 @@
   margin: 10px;
   padding: 10px;
   text-align: left;
-  background: var(--third-c);
+  background: var(--third);
 }
 
 .profile__aboutme {
@@ -10,7 +10,7 @@
 }
 
 .profile__skills {
-  margin: 2rem 0;
+  padding: 1rem;
   background: var(--fourth);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
@@ -27,7 +27,7 @@
   background: var(--secondary);
   list-style: none;
   padding: 0.3rem;
-  font-size: 1rem;
-  margin: 1rem;
-  width: 80px;
+  font-size: 1.3rem;
+  margin: 0.8rem;
+  width: min-content;
 }

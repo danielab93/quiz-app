@@ -1,6 +1,13 @@
 .card__create {
   padding: 40px;
   margin-left: 0px;
-  border: 1px solid #183151;
+  border: 1px solid var(--primary);
   width: 100%;
+  background: linear-gradient(90deg, #ff5a36, #f7f7f7);
+}
+
+.textarea {
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+  background-color: var(--fourth);
 }
