@@ -5,7 +5,7 @@ img {
 }
 
 .header_headline {
-  color: #183151;
+  color: var(--primary);
   text-align: center;
   background-color: var(--fourth);
   padding: 4px;
@@ -19,7 +19,7 @@ img {
   right: 30px;
   top: -15px;
   z-index: 10;
-  background-color: white;
+  background-color: var(--fourth);
   color: var(--primary);
 }
 
@@ -35,13 +35,13 @@ img {
 }
 
 li {
-  background: #ff5a36;
+  background: var(--secondary);
   padding: 1px;
   width: 70px;
   height: 30px;
   margin-top: 10px;
   line-height: 25px;
-  color: white;
+  color: var(--third);
   font-size: 20px;
   text-align: center;
 }
@@ -55,6 +55,13 @@ li {
   margin: 0;
   list-style: none;
 }
+
+.card__answers:hover {
+  background-color: #183151;
+  transform: scale(1.2);
+  transition: transform 0.4s ease;
+}
+
 .card__paragraph--question {
   margin-bottom: 10px;
 }
