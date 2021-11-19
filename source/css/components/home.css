@@ -4,17 +4,6 @@ img {
   top: 110px;
 }
 
-.neuefische__logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  left: 10px;
-  top: 50px;
-  height: 50px;
-  width: auto;
-}
-
 .header_headline {
   color: var(--primary);
   text-align: center;
@@ -24,11 +13,25 @@ img {
   margin: 3px;
 }
 
-/* .header_headline:hover {
-  transform: translateX(10px);
-  transition: transform 1s ease-in-out;
-  animation-iteration-count: infinite;
-} */
+h1:hover {
+  /* transform: translateX(10px);
+  transition: transform 1s ease-in-out; */
+  transform: translateX(5px);
+  animation: shake 2s infinite;
+  animation-direction: alternate;
+}
+
+li {
+  background: var(--secondary);
+  padding: 1px;
+  width: 70px;
+  height: 30px;
+  margin-top: 10px;
+  line-height: 25px;
+  color: var(--third);
+  font-size: 20px;
+  text-align: center;
+}
 
 .card {
   position: relative;
@@ -50,16 +53,9 @@ img {
   color: var(--primary);
 }
 
-li {
-  background: var(--secondary);
-  padding: 1px;
-  width: 70px;
-  height: 30px;
-  margin-top: 10px;
-  line-height: 25px;
-  color: var(--third);
-  font-size: 20px;
-  text-align: center;
+.active {
+  background-color: var(--secondary);
+  color: var(--primary);
 }
 
 .card__answeroptions {
@@ -106,5 +102,16 @@ li {
 /* Change the color of links on hover */
 .navbar a:hover {
   background-color: var(--secondary);
-  color: black;
+  color: var(--primary);
+}
+
+.neuefische__logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  height: 50px;
+  width: auto;
 }
