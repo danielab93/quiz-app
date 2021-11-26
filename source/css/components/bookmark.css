@@ -6,9 +6,3 @@
   z-index: 10;
   color: var(--primary);
 }
-
-.card__bookmark.fas,
-.card__bookmark.far {
-  color: var(--primary);
-  background-color: var(--primary);
-}

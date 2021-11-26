@@ -1,12 +1,28 @@
-function toggleBookmark(bookmark) {
-    bookmark.addEventListener('click', () => {
-        bookmark.classList.toggle('far')
-        bookmark.classList.toggle('fas')
+let filledBookmarks = document.querySelectorAll('.card__bookmark')
+
+filledBookmarks.forEach((filledBookmark) => {
+    filledBookmark.addEventListener('click', () => {
+    filledBookmark.classList.toggle('far')
+    filledBookmark.classList.toggle('fas')     
     })
-}
+})
 
-/* const filledBookmark = document.querySelectorAll('.card__bookmark')
+let buttons = document.querySelectorAll('.button__answer')
+let answers = document.querySelectorAll('.card__answer')
 
-filledBookmark.addEventListener('click', () => {
-filledBookmark.classList.add('.card__bookmark--active ')
-}) */
+// console.log(buttons);
+// console.log(answers);
+
+buttons.forEach((button, index) => { // index = button[0] usw.
+// console.log(index);
+
+    button.addEventListener('click', () => {
+    let answer = answers[index];
+    answer.classList.toggle('hide');
+    if (answer.classList.contains('hide')) {  
+        (button.innerHTML='Show Answer');
+    } else {
+        button.innerHTML='Hide Answer';
+        }
+    });
+});
