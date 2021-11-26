@@ -48,6 +48,14 @@ li {
   width: 100%;
 }
 
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
 .card__answeroptions {
   display: flex;
   flex-wrap: wrap;

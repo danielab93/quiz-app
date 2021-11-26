@@ -10,11 +10,8 @@ filledBookmarks.forEach((filledBookmark) => {
 let buttons = document.querySelectorAll('.button__answer')
 let answers = document.querySelectorAll('.card__answer')
 
-// console.log(buttons);
-// console.log(answers);
 
 buttons.forEach((button, index) => { // index = button[0] usw.
-// console.log(index);
 
     button.addEventListener('click', () => {
     let answer = answers[index];
